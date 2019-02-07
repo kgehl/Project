@@ -1,5 +1,9 @@
 # Determine nitrous oxide flux from sorghum cropping systems in the Great Plains
 
+**Name**: Kathy Gehl </br>
+**Class**: AGRON 935, Spring 2019 </br>
+
+
 ## Background and Rationale
 
 Nitrous oxide (N2O) emissions from grain sorghum has recently been identified as a critical research gap that is limiting the life cycle assessment (LCA) for grain sorghum. The goal of an LCA is to assess the environmental impacts associated with all the stages a products life. Recent changes in the life cycle assessment of corn has resulted in grain sorghum appearing to be less favorable to corn for biofuel production.
