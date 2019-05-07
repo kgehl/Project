@@ -10,7 +10,7 @@
 Create a Python code to organize N<sub>2</sub>O gas measurements from a gas chromotograph and calculate daily N<sub>2</sub>O flux values.
 
 - **Necessary steps to get started**
-   - Fork this respository to gain access to sample data set and Python code.
+   - Clone this respository to gain access to data sets folder and Python code.
        * A sample dataset of N<sub>2</sub>O gas measurements is located in the Datasets folder as **Sample_data_set2.csv**
        * The Python code is detailed in a JupyterLab notebook called **N2Oproject_final** in the main repository.
    - Import raw .csv output files from gas chromotograph (N<sub>2</sub>O data). File needs to be a .csv and placed in the Datasets folder.
