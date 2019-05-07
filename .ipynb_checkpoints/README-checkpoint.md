@@ -7,13 +7,22 @@
 
 ## Objective
 ---
-Create a Python code to organize N<sub>2</sub>O gas measurements and calculate daily N<sub>2</sub>O flux values.
+Create a Python code to organize N<sub>2</sub>O gas measurements from a gas chromotograph and calculate daily N<sub>2</sub>O flux values.
 
-- **Necessary steps**
-   - Import raw .csv output files from gas chromotograph (N<sub>2</sub>O data)
-   - Reorganize the N<sub>2</sub>O data into a workable dataframe
-   - Calculate daily N<sub>2</sub>O flux for each plot at each sampling event
+- **Necessary steps to get started**
+   - Fork this respository to gain access to sample data set and Python code.
+       * A sample dataset of N<sub>2</sub>O gas measurements is located in the Datasets folder as **Sample_data_set2.csv**
+       * The Python code is detailed in a JupyterLab notebook called **N2Oproject_final** in the main repository.
+   - Import raw .csv output files from gas chromotograph (N<sub>2</sub>O data). File needs to be a .csv and placed in the Datasets folder.
+   
+
+- **The final code will:**
+    - Organize the N<sub>2</sub>O data into a workable Pandas dataframe.
+       - The format of the Sample ID is: 2018\06\COLBY_304_T4562218.DATA
+       - Users with different Sample ID format may not be able to use the code without revising.
+    - Calculate daily N<sub>2</sub>O flux for each plot at each sampling event
         * Flux will be calculated as slope using linear regression with the time sequence as the x variable and N<sub>2</sub>O values as the y variable.
+        * Users will need to change the time sequence if it differs from 0, 15, 30, and 45 minutes. This can be done in the code when setting up the variables.
 
 ## Motivation
 ---
